@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="770.0" prefWidth="1016.0" spacing="8.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chart.chartop.logincontroller">
+
+    <SplitPane dividerPositions="0.5670995670995671" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="423.0" prefWidth="373.0" style="-fx-background-color: #B6C4B6;">
+            <Label layoutX="46.0" layoutY="140.0" prefHeight="58.0" prefWidth="290.0" text="Student Grade    ">
+                <font>
+                    <Font size="29.0" />
+                </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="190.0" prefHeight="30.0" prefWidth="232.0" text="  Visualization SYSTEM">
+                <font>
+                    <Font name="Bodoni MT Bold" size="20.0" />
+                </font>
+            </Label>
+        </AnchorPane>
+        <AnchorPane prefHeight="438.0" prefWidth="345.0" style="-fx-background-color: #FBF6EE;">
+            <Label layoutX="77.0" layoutY="106.0" prefHeight="55.0" prefWidth="146.0" text="LOGIN">
+                <font>
+                    <Font name="Bodoni MT Bold" size="44.0" />
+                </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="185.0" text="Student Name">
+                <font>
+                    <Font name="Bodoni MT" size="18.0" />
+                </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="253.0" text="Student ID">
+                <font>
+                    <Font name="Bodoni MT" size="18.0" />
+                </font>
+            </Label>
+
+            <TextField fx:id="name" layoutX="65.0" layoutY="213.0" prefHeight="25.0" prefWidth="200.0" promptText="please enter your name" style="-fx-background-color: white;" />
+            <TextField fx:id="ID" layoutX="65.0" layoutY="282.0" prefHeight="25.0" prefWidth="200.0" promptText="ID" style="-fx-background-color: white;" />
+         <Label layoutX="93.0" layoutY="372.0" text="have no account?" />
+         <Button fx:id="Register" layoutX="185.0" layoutY="368.0" mnemonicParsing="false" onAction="#registerPage" style="-fx-background-color: #FBF6EE;" text="Register" textFill="#19a2f7" />
+         <Button fx:id="login" layoutX="139.0" layoutY="318.0" mnemonicParsing="false" onAction="#chartPage" text="login" />
+        </AnchorPane>
+    </SplitPane>
+</VBox>

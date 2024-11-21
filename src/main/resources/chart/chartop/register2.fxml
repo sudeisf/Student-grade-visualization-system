@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="824.0" prefWidth="1156.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chart.chartop.CourseEntryController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="818.0" prefWidth="1158.0" style="-fx-background-color: a0b2a6;">
+         <children>
+            <TableView fx:id="tableView1" layoutX="708.0" layoutY="95.0" prefHeight="213.0" prefWidth="424.0">
+               <columns>
+                  <TableColumn fx:id="tableView1col1" prefWidth="181.5999755859375" text="course name" />
+                  <TableColumn fx:id="tableView1col2" prefWidth="241.5999755859375" text="Score" />
+               </columns>
+            </TableView>
+            <Label layoutX="846.0" layoutY="51.0" text="Semester" textFill="#fcf9f9">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="programming" layoutX="372.0" layoutY="113.0" text="Introduction to Programming" />
+            <Label fx:id="Calculus" layoutX="475.0" layoutY="140.0" text="Calculus I" />
+            <Label fx:id="Physics" layoutX="470.0" layoutY="177.0" text="Physics 101" />
+            <Label fx:id="dsa" layoutX="450.0" layoutY="209.0" text="Data structure" />
+            <Label fx:id="linearAlgebra" layoutX="437.0" layoutY="248.0" text="Linear Algebra" />
+            <Label fx:id="magnetism" layoutX="394.0" layoutY="283.0" text="Electricity and Magnetism" />
+            <TextField fx:id="magnetismTextFeild" layoutX="542.0" layoutY="279.0" />
+            <TextField fx:id="IntroToProgrammingTextField" layoutX="542.0" layoutY="100.0" />
+            <TextField fx:id="CalculusTextFeIld" layoutX="542.0" layoutY="136.0" />
+            <TextField fx:id="PhysicsTextFeild" layoutX="542.0" layoutY="173.0" />
+            <TextField fx:id="dsaTextFeild" layoutX="542.0" layoutY="205.0" />
+            <TextField fx:id="linearAlgebraTextFeild" layoutX="542.0" layoutY="244.0" />
+            <Label fx:id="semLabel" layoutX="900.0" layoutY="317.0" text="Semester -II" textFill="#f8f5f5" />
+            <TableView fx:id="tableView2" layoutX="698.0" layoutY="344.0" prefHeight="200.0" prefWidth="442.0">
+               <columns>
+                  <TableColumn fx:id="tableView2col1" prefWidth="180.79998779296875" text="course name" />
+                  <TableColumn fx:id="tableView2col2" prefWidth="258.4000244140625" text="Score" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tableView3" layoutX="691.0" layoutY="568.0" prefHeight="200.0" prefWidth="452.0">
+               <columns>
+                  <TableColumn fx:id="tableView3col1" prefWidth="168.79998779296875" text="course name" />
+                  <TableColumn fx:id="tableView3col2" prefWidth="91.20001220703125" text="Score" />
+               </columns>
+            </TableView>
+            <TextField fx:id="EquationTextFeild" layoutX="537.0" layoutY="376.0" />
+            <TextField fx:id="opticsTextFeild" layoutX="537.0" layoutY="412.0" />
+            <TextField fx:id="dataBTextFeild" layoutX="537.0" layoutY="444.0" />
+            <TextField fx:id="mechanicsTextFeild" layoutX="537.0" layoutY="519.0" />
+            <TextField fx:id="numTheoryTextFeild" layoutX="537.0" layoutY="482.0" />
+            <TextField fx:id="AlgorithmTextField" layoutX="537.0" layoutY="338.0" />
+            <TextField fx:id="SweTextFeild" layoutX="527.0" layoutY="568.0" />
+            <TextField fx:id="statisticsTextFeild" layoutX="527.0" layoutY="600.0" />
+            <TextField fx:id="thermodynamicsTexrFeild" layoutX="527.0" layoutY="634.0" />
+            <TextField fx:id="NetworkTextFeild" layoutX="527.0" layoutY="668.0" />
+            <TextField fx:id="GthoryTextFeild" layoutX="527.0" layoutY="703.0" />
+            <TextField fx:id="QmechanicsTextFeild" layoutX="527.0" layoutY="740.0" />
+            <Label fx:id="Algorithms" layoutX="453.0" layoutY="342.0" text="Algorithms" />
+            <Label fx:id="Deferential_Equations" layoutX="400.0" layoutY="380.0" text="Deferential Equations" />
+            <Label fx:id="Optics" layoutX="478.0" layoutY="416.0" text="Optics" />
+            <Label fx:id="Database_management" layoutX="395.0" layoutY="448.0" text="Database management" />
+            <Label fx:id="Number_theory" layoutX="437.0" layoutY="486.0" text="Number theory" />
+            <Label fx:id="Mechanics" layoutX="468.0" layoutY="514.0" text="Mechanics" />
+            <Label fx:id="Software_engineering" layoutX="390.0" layoutY="572.0" text="Software engineering" />
+            <Label fx:id="statistics" layoutX="372.0" layoutY="604.0" text="probablity and statistics" />
+            <Label fx:id="Thermodynamics" layoutX="414.0" layoutY="638.0" text="Thermodynamics" />
+            <Label fx:id="ComputerNewtorks" layoutX="395.0" layoutY="672.0" text="Computer networks" />
+            <Label fx:id="Graph_theory" layoutX="430.0" layoutY="707.0" text="Graph theory" />
+            <Label fx:id="Quantum_mechanics" layoutX="393.0" layoutY="744.0" text="Quantum mechanics" />
+            <Button fx:id="saveButton" layoutX="100.0" layoutY="351.0" mnemonicParsing="false" onAction="#nextToLogin" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: orange;" text="save" />
+            <Label layoutX="814.0" layoutY="313.0" text="Semester" textFill="#fffdfd">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="semLabel1" layoutX="947.0" layoutY="56.0" text="Semester -I" textFill="#f5f2f2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="835.0" layoutY="539.0" text="Semester" textFill="#f5f0f0">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="semLabel2" layoutX="921.0" layoutY="544.0" text="Semester -III" textFill="#f2efef" />
+            <Button layoutX="227.0" layoutY="351.0" mnemonicParsing="false" onAction="#nextToLog" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: green;" text="Next" textFill="#f8f8f8" />
+            <TextField fx:id="Firstname" layoutX="145.0" layoutY="136.0" promptText="first-name" style="-fx-border-radius: 5px;" />
+            <TextField fx:id="lastname" layoutX="145.0" layoutY="182.0" promptText="last-name" style="-fx-border-radius: 5px;" />
+            <TextField fx:id="studentID" layoutX="145.0" layoutY="218.0" promptText="student Id" style="-fx-border-radius: 5px;" />
+            <TextField fx:id="department" layoutX="145.0" layoutY="257.0" promptText="department" style="-fx-border-radius: 5px;" />
+            <TextField fx:id="gender" layoutX="145.0" layoutY="297.0" promptText="male or female" style="-fx-border-radius: 5px;" />
+            <Label layoutX="516.0" layoutY="14.0" text="Registration">
+               <font>
+                  <Font name="Georgia" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="140.0" prefHeight="17.0" prefWidth="70.0" text="Fist name" />
+            <Label layoutX="60.0" layoutY="186.0" prefHeight="17.0" prefWidth="70.0" text="Last name" />
+            <Label layoutX="60.0" layoutY="222.0" prefHeight="17.0" prefWidth="70.0" text="Student ID" />
+            <Label layoutX="51.0" layoutY="261.0" prefHeight="17.0" prefWidth="70.0" text="Department" />
+            <Label layoutX="60.0" layoutY="300.0" prefHeight="17.0" prefWidth="70.0" text="Gender" />
+            <Label layoutX="602.0" layoutY="69.0" text="100%" textFill="#fffefe">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>
